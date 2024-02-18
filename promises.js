@@ -23,7 +23,7 @@ new Promise(function(resolve, reject){
 
 const promiseThree = new Promise(function(resolve, reject){
     setTimeout(function(){
-        resolve({username: "Chai", email: "chai@example.com"})
+        resolve({username: "rakesh", email: "rakesh@example.com"})
     }, 1000)
 })
 
@@ -35,7 +35,7 @@ const promiseFour = new Promise(function(resolve, reject){
     setTimeout(function(){
         let error = true
         if (!error) {
-            resolve({username: "hitesh", password: "123"})
+            resolve({username: "rakeshG", password: "123456"})
         } else {
             reject('ERROR: Something went wrong')
         }
